@@ -1,0 +1,34 @@
+<nav class="navbar" [class.scrolled]="isScrolled">
+  <div class="container">
+    <div class="navbar-content">
+      <a href="#home" class="logo" (click)="scrollToSection($event, '#home')">
+        <span class="logo-text">Portfolio</span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="nav-links desktop-menu">
+        <li *ngFor="let link of navLinks">
+          <a [href]="link.href" (click)="scrollToSection($event, link.href)">
+            {{ link.name }}
+          </a>
+        </li>
+      </ul>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-toggle" (click)="toggleMobileMenu()" aria-label="Toggle menu">
+        <span class="hamburger" [class.active]="isMobileMenuOpen"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" [class.active]="isMobileMenuOpen">
+      <ul class="nav-links">
+        <li *ngFor="let link of navLinks">
+          <a [href]="link.href" (click)="scrollToSection($event, link.href)">
+            {{ link.name }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

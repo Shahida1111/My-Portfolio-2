@@ -1,0 +1,26 @@
+<section class="about">
+  <div class="container">
+    <h2 class="section-title">{{ aboutInfo.title }}</h2>
+    
+    <div class="about-content">
+      <div class="about-text">
+        <p class="description">{{ aboutInfo.description }}</p>
+        
+        <div class="highlights">
+          <div class="highlight-card" *ngFor="let highlight of aboutInfo.highlights">
+            <div class="icon">{{ highlight.icon }}</div>
+            <h3>{{ highlight.title }}</h3>
+            <p>{{ highlight.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat-card" *ngFor="let stat of aboutInfo.stats">
+        <h3 class="stat-number">{{ stat.number }}</h3>
+        <p class="stat-label">{{ stat.label }}</p>
+      </div>
+    </div>
+  </div>
+</section>

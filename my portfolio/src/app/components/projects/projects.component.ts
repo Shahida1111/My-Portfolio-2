@@ -21,7 +21,7 @@ export class ProjectsComponent {
     {
       title: 'Enterprise Immigration Insurance System',
       description:
-        'Developed an insurance lifecycle platform that tracks policies from initial quote to issuance, including automated quote generation, real-time policy status updates, and validation using business rules. Built modular backend services for managing reference data and processing policy workflows.',
+        'Built an insurance lifecycle platform managing policies from quote to issuance, with automated quote generation, real-time status updates, and business rule validation.',
       image: 'assets/images/insurance-system.jpg',
       technologies: [
         'Angular 16',
@@ -38,11 +38,11 @@ export class ProjectsComponent {
       featured: true,
     },
     {
-      title: 'Web Analytics & Business Intelligence Dashboard',
+      title: 'Web Analytics Dashboard',
       description:
         'Tracks website traffic, user behavior, page views, session duration, bounce rates, and conversion metrics in real-time.',
       image: 'assets/images/dashboard1.png',
-      technologies: ['Angular', 'Grafana', 'Node js', 'MySQL', 'postman'],
+      technologies: ['Angular', 'Grafana', 'Figma', 'Node js', 'MySQL', 'postman'],
       liveLink: 'https://demo.yourdomain.com',
       githubLink: 'https://github.com/Shahida1111/Web-Analitics-Dashboard',
       featured: true,
@@ -58,33 +58,24 @@ export class ProjectsComponent {
       featured: false,
     },
     {
-      title: 'Social Media Analytics',
-      description:
-        'Analytics dashboard for social media metrics with data visualization and performance insights.',
-      image: 'assets/images/project4.jpg',
-      technologies: ['Angular', 'Python', 'PostgreSQL', 'D3.js'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com/username/project',
-    },
-    {
       title: 'My Portfolio',
       description:
         'A personal portfolio website showcasing my projects, skills, and experience. Built with modern web technologies to highlight my work as a developer.',
       image: 'assets/images/portfolio.jpg',
       technologies: ['Angular', 'HTML5', 'CSS3', 'TypeScript'],
       liveLink: 'https://example.com/portfolio',
-      githubLink: 'https://github.com/Shahida1111/your-portfolio-repo',
+      githubLink: 'https://github.com/Shahida1111/My-Portfolio-2',
       featured: false,
     },
-    {
-      title: 'Fitness Tracking App',
-      description:
-        'Mobile-first fitness application with workout plans, progress tracking, and nutrition guidance.',
-      image: 'assets/images/project6.jpg',
-      technologies: ['React Native', 'Express', 'MongoDB'],
-      liveLink: 'https://example.com',
-      githubLink: 'https://github.com/username/project',
-    },
+    // {
+    //   title: 'Fitness Tracking App',
+    //   description:
+    //     'Mobile-first fitness application with workout plans, progress tracking, and nutrition guidance.',
+    //   image: 'assets/images/project6.jpg',
+    //   technologies: ['React Native', 'Express', 'MongoDB'],
+    //   liveLink: 'https://example.com',
+    //   githubLink: 'https://github.com/username/project',
+    // },
   ];
 
   filteredProjects = this.projects;

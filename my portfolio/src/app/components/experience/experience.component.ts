@@ -18,20 +18,20 @@ interface Experience {
 })
 export class ExperienceComponent {
   experiences: Experience[] = [
-    {
-      role: 'Senior Software Developer',
-      company: 'Tech Solutions Inc.',
-      duration: 'Jan 2023 - Present',
-      location: 'Remote',
-      description: 'Leading development of enterprise-level web applications and mentoring junior developers.',
-      achievements: [
-        'Architected and developed scalable microservices serving 100K+ daily users',
-        'Reduced application load time by 40% through optimization techniques',
-        'Mentored team of 5 junior developers, improving code quality by 60%',
-        'Implemented CI/CD pipelines reducing deployment time by 70%'
-      ],
-      current: true
-    },
+    // {
+    //   role: 'Senior Software Developer',
+    //   company: 'Tech Solutions Inc.',
+    //   duration: 'Jan 2023 - Present',
+    //   location: 'Remote',
+    //   description: 'Leading development of enterprise-level web applications and mentoring junior developers.',
+    //   achievements: [
+    //     'Architected and developed scalable microservices serving 100K+ daily users',
+    //     'Reduced application load time by 40% through optimization techniques',
+    //     'Mentored team of 5 junior developers, improving code quality by 60%',
+    //     'Implemented CI/CD pipelines reducing deployment time by 70%'
+    //   ],
+    //   current: true
+    // },
     {
       role: 'Full Stack Developer',
       company: 'Digital Innovations Ltd.',
@@ -46,7 +46,7 @@ export class ExperienceComponent {
       ]
     },
     {
-      role: 'Junior Developer',
+      role: 'Software Ebgineer Intern',
       company: 'StartUp Ventures',
       duration: 'Jun 2020 - Feb 2021',
       location: 'San Francisco, CA',

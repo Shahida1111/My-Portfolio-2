@@ -18,45 +18,42 @@ interface Experience {
 })
 export class ExperienceComponent {
   experiences: Experience[] = [
-    // {
-    //   role: 'Senior Software Developer',
-    //   company: 'Tech Solutions Inc.',
-    //   duration: 'Jan 2023 - Present',
-    //   location: 'Remote',
-    //   description: 'Leading development of enterprise-level web applications and mentoring junior developers.',
-    //   achievements: [
-    //     'Architected and developed scalable microservices serving 100K+ daily users',
-    //     'Reduced application load time by 40% through optimization techniques',
-    //     'Mentored team of 5 junior developers, improving code quality by 60%',
-    //     'Implemented CI/CD pipelines reducing deployment time by 70%'
-    //   ],
-    //   current: true
-    // },
-    {
-      role: 'Full Stack Developer',
-      company: 'Digital Innovations Ltd.',
-      duration: 'Mar 2021 - Dec 2022',
-      location: 'New York, NY',
-      description: 'Developed and maintained multiple client-facing web applications using modern tech stack.',
-      achievements: [
-        'Built 10+ responsive web applications using React and Angular',
-        'Integrated third-party APIs and payment gateways',
-        'Collaborated with UX team to implement pixel-perfect designs',
-        'Improved application performance metrics by 35%'
-      ]
-    },
-    {
-      role: 'Software Ebgineer Intern',
-      company: 'StartUp Ventures',
-      duration: 'Jun 2020 - Feb 2021',
-      location: 'San Francisco, CA',
-      description: 'Contributed to various frontend and backend projects while learning industry best practices.',
-      achievements: [
-        'Developed RESTful APIs using Node.js and Express',
-        'Created responsive UI components using React and CSS',
-        'Participated in code reviews and agile ceremonies',
-        'Fixed 100+ bugs and implemented new features'
-      ]
-    }
-  ];
+  {
+    role: 'Associate Software Engineer',
+    company: 'Yoors - Colombo 3',
+    duration: 'Aug 2024 ',
+    location: 'Colombo, Sri Lanka',
+    description: 'Developed enterprise-scale insurance management systems focusing on digital transformation and modular frontend architecture.',
+    achievements: [
+      'Engineered modular Angular components following strict architecture to ensure high software quality and extensibility.',
+      'Utilized SonarQube to enforce code standards and eliminate vulnerabilities, ensuring zero-tolerance for technical defects.',
+      'Generated precise JasperSoft reports to meet user department requirements and ensure accurate delivery of business data.',
+      'Collaborated with backend teams to integrate RESTful APIs, ensuring project delivery within established management schedules.'
+    ]
+  },
+  {
+    role: 'Intern Software Engineer',
+    company: 'Kapruka Holdings PLC (KPHL)',
+    duration: 'July 2023 - January 2024',
+    location: 'Colombo, Sri Lanka',
+    description: 'Contributed to a vendor management system by designing frontend interfaces and implementing backend API endpoints.',
+    achievements: [
+      'Designed responsive frontend interfaces and integrated backend data via REST APIs using Spring Boot frameworks.',
+      'Developed backend endpoints and managed MySQL database structures to support vendor management system functionalities.',
+      'Studied UAT and defect reports during development to ensure bug-free delivery of software features.'
+    ]
+  },
+  {
+    role: 'Trainee',
+    company: 'People’s Bank',
+    duration: 'October 2018 - March 2019',
+    location: 'Colombo, Sri Lanka',
+    description: 'Assisted in banking operational processes, focusing on cash handling, account opening, and transaction security.',
+    achievements: [
+      'Managed cash handling and transaction processing in the opening section while maintaining 100% financial accuracy.',
+      'Facilitated the account opening process by verifying customer documentation and inputting data into banking systems.',
+      'Executed transactions in the opening section while strictly adhering to security protocols.'
+    ]
+  }
+];
 }

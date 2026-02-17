@@ -30,19 +30,19 @@ export class ContactComponent {
     {
       icon: '📧',
       label: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'i.shahidaibrahim@gmail.com',
+      link: 'mailto:i.shahidaibrahim@gmail.com'
     },
     {
       icon: '📱',
       label: 'Phone',
-      value: '+1 (123) 456-7890',
+      value: '+9472 068 9254',
       link: 'tel:+11234567890'
     },
     {
       icon: '📍',
       label: 'Location',
-      value: 'Your City, Country',
+      value: ' Homagama, Colombo',
       link: null
     }
   ];
@@ -51,18 +51,18 @@ export class ContactComponent {
     {
       name: 'GitHub',
       icon: 'github',
-      url: 'https://github.com/yourusername'
+      url: 'https://github.com/Shahida1111'
     },
     {
       name: 'LinkedIn',
       icon: 'linkedin',
-      url: 'https://linkedin.com/in/yourusername'
+      url: 'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHNZr0eaKUd-QAAAZxrHvGgIkL-Y9hqsHw-70SugMrEUiV3d_jdQVxQTQmnEYQbcHcITxGffePxVU2znQJ7-DMX2ok5mJMONd69ZSp3DU7xBOOLzDZ1p63KHhJNg5YHzj0Nkcs=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fshahida-ibrahim-301b11206%2F'
     },
-    {
-      name: 'Twitter',
-      icon: 'twitter',
-      url: 'https://twitter.com/yourusername'
-    }
+    // {
+    //   name: 'Twitter',
+    //   icon: 'twitter',
+    //   url: 'https://twitter.com/yourusername'
+    // }
   ];
 
   onSubmit() {

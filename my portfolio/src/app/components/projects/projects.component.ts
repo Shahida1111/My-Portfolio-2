@@ -19,6 +19,41 @@ interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
+      title: 'E-Commerce Web Application',
+      description:
+        'Developed a full-featured e-commerce web application with product listing, user authentication, cart management, and order processing. Implemented a mock backend using JSON Server for REST API operations, enabling real-time data handling and seamless frontend-backend interaction.',
+      image: 'assets/images/ecommerce.jpg', // update image path if needed
+      technologies: [
+        'Angular 14',
+        'TypeScript',
+        'JSON Server',
+        'HTML',
+        'CSS',
+        'Bootstrap',
+        'REST API',
+      ],
+      liveLink: 'https://github.com/Shahida1111/angular-ecom-main', // or deployed link if available
+      githubLink: 'https://github.com/Shahida1111/eCommerceWebSite/tree/main',
+      featured: true,
+    },
+    {
+      title: 'Web Analytics Dashboard',
+      description:
+        'Tracks website traffic, user behavior, page views, session duration, bounce rates, and conversion metrics in real-time.',
+      image: 'assets/images/dashboard1.png',
+      technologies: [
+        'Angular',
+        'Grafana',
+        'Figma',
+        'Node js',
+        'MySQL',
+        'postman',
+      ],
+      liveLink: 'https://demo.yourdomain.com',
+      githubLink: 'https://github.com/Shahida1111/Web-Analitics-Dashboard',
+      featured: true,
+    },
+    {
       title: 'Enterprise Immigration Insurance System',
       description:
         'Built an insurance lifecycle platform managing policies from quote to issuance, with automated quote generation, real-time status updates, and business rule validation.',
@@ -37,16 +72,7 @@ export class ProjectsComponent {
         'https://github.com/Shahida1111/Enterprise-Immigration-Insurance-System',
       featured: true,
     },
-    {
-      title: 'Web Analytics Dashboard',
-      description:
-        'Tracks website traffic, user behavior, page views, session duration, bounce rates, and conversion metrics in real-time.',
-      image: 'assets/images/dashboard1.png',
-      technologies: ['Angular', 'Grafana', 'Figma', 'Node js', 'MySQL', 'postman'],
-      liveLink: 'https://demo.yourdomain.com',
-      githubLink: 'https://github.com/Shahida1111/Web-Analitics-Dashboard',
-      featured: true,
-    },
+    
     {
       title: 'Food Ordering System',
       description:
@@ -57,16 +83,7 @@ export class ProjectsComponent {
       githubLink: 'https://github.com/Shahida1111/Food-Orderig-System',
       featured: false,
     },
-    {
-      title: 'My Portfolio',
-      description:
-        'A personal portfolio website showcasing my projects, skills, and experience. Built with modern web technologies to highlight my work as a developer.',
-      image: 'assets/images/portfolio.jpg',
-      technologies: ['Angular', 'HTML5', 'CSS3', 'TypeScript'],
-      liveLink: 'https://example.com/portfolio',
-      githubLink: 'https://github.com/Shahida1111/My-Portfolio-2',
-      featured: false,
-    },
+    
     // {
     //   title: 'Fitness Tracking App',
     //   description:

@@ -1,0 +1,4 @@
+[build]
+  base = "my portfolio"
+  command = "npx ng build"
+  publish = "dist/portfolio"
